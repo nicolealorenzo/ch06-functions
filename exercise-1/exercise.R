@@ -16,3 +16,6 @@
 
 
 ## Create a variable `height.in.meters` by passing `height.in.feet` to your `FeetToMeters` function
+
+## ------------------------------ challenge ------------------------------
+## create a function that converts height from meters to feet and inches
