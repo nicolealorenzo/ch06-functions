@@ -21,3 +21,16 @@ height.in.feet <- 6.08
 
 # Create a variable `height.in.meters` by passing `height.in.feet` to your `FeetToMeters` function
 height.in.meters <- FeetToMeters(height.in.feet)
+
+## ------------------------------ challenge ------------------------------
+## create a function that converts height from meters to feet and inches
+MetersToFeetAndInch <- function (meters) {
+  feet <- meters * 3.28084
+  inches <- (feet * 12) %% 12
+  final <- paste(as.character(floor(feet)), "feet", as.character(format(round(inches,2))), "inches")
+  return(final)
+}
+
+
+
+
